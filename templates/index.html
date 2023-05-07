@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多语言翻译工具</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script>
+        function validateForm() {
+            const sourceLang = document.getElementById("source_lang");
+            const targetLang = document.getElementById("target_lang");
+            const inputFile = document.getElementById("input_file");
+
+            if (!sourceLang.value || !targetLang.value || !inputFile.value) {
+                alert("请确保所有字段都已填写。");
+                return false;
+            }
+            if (sourceLang.value === targetLang.value) {
+                alert("源语言和目标语言不能相同，请选择不同的语言。");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h1>多语言翻译工具</h1>
+    <form action="/translate" method="post" enctype="multipart/form-data" onsubmit="return validateForm();">
+        <label for="source_lang">源语言:</label>
+        <select name="source_lang" id="source_lang">
+            {% for lang in source_languages %}
+                <option value="{{ lang.en_str }}">{{ lang.ch_str }} - {{ lang.lang_str }}</option>
+            {% endfor %}
+        </select>
+        <br><br>
+        <label for="target_lang">目标语言:</label>
+        <select name="target_lang" id="target_lang">
+            {% for lang in target_languages %}
+                <option value="{{ lang.en_str }}">{{ lang.ch_str }} - {{ lang.lang_str }}</option>
+            {% endfor %}
+        </select>
+        <br><br>
+        <label for="input_file">Choose strings.xml file:</label>
+        <input type="file" name="input_file" id="input_file" accept=".xml">
+        <br><br>
+        <button type="submit">开 始</button>
+    </form>
+</body>
+</html>

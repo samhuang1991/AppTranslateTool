@@ -1,0 +1,20 @@
+[
+    {
+        "en_str": "English_UnitedStates",
+        "ch_str": "英语(美国)",
+        "lang_str": "English(United States)",
+        "lang_folder_name": "values-en-rUS"
+    },
+    {
+        "en_str": "Chinese_Simplified",
+        "ch_str": "中文(简体)",
+        "lang_str": "中文(简体)",
+        "lang_folder_name": "values-zh-rCN"
+    },
+    {
+        "en_str": "Spanish",
+        "ch_str": "西班牙语",
+        "lang_str": "Espanol",
+        "lang_folder_name": "values-es"
+    }
+]

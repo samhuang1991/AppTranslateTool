@@ -1,0 +1,56 @@
+[
+    {
+        "en_str": "English_UnitedStates",
+        "ch_str": "英语(美国)",
+        "lang_str": "English_UnitedStates",
+        "lang_folder_name": "values-en-rUS"
+    },
+    {
+        "en_str": "Chinese _Simplified",
+        "ch_str": "中文(简体)",
+        "lang_str": "中文(简体)",
+        "lang_folder_name": "values-zh-rCN"
+    },
+    {
+        "en_str": "Chinese_Traditional",
+        "ch_str": "中文(繁体)",
+        "lang_str": "中文(繁体)",
+        "lang_folder_name": "values-zh-rTW"
+    },
+    {
+        "en_str": "Spanish",
+        "ch_str": "西班牙语",
+        "lang_str": "Espanol",
+        "lang_folder_name": "values-es"
+    },
+    {
+        "en_str": "Japanese",
+        "ch_str": "日语",
+        "lang_str": "日本語",
+        "lang_folder_name": "values-ja"
+    },
+    {
+        "en_str": "Vietnamese",
+        "ch_str": "越南语",
+        "lang_str": "Tiéng  Viet",
+        "lang_folder_name": "values-vi"
+    },
+    {
+        "en_str": "Hebrew",
+        "ch_str": "希伯来语",
+        "lang_str": "עִבְרִית",
+        "lang_folder_name": "values-iw"
+    },
+    {
+        "en_str": "Arabic",
+        "ch_str": "阿拉伯语",
+        "lang_str": "اللغة العربية",
+        "lang_folder_name": "values-ar"
+    },
+    {
+        "en_str": "Persian",
+        "ch_str": "波斯语",
+        "lang_str": "فارسی",
+        "lang_folder_name": "فارسی"
+    }
+]

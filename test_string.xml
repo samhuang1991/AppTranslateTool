@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Main app title [CHAR LIMIT=40] -->
+    <string name="settings_app_name">TV Settings</string>
+    <string name="settings_app_name_sharp">Tool</string>
+    <!-- Leanback Launcher App Title for main Settings app [CHAR LIMIT=40] -->
+    <string name="launcher_settings_app_name">TV Settings</string>
+    <!-- Leanback Launcher App Title for Network settings app [CHAR LIMIT=40] -->
+    <string name="launcher_network_app_name">Network</string>
+    <!-- Leanback Launcher App Title for Restricted Profile app [CHAR LIMIT=40] -->
+    <string name="launcher_restricted_profile_app_name">Restricted Profile</string>
+    <!-- Top level headers -->
+    <skip />
+    <!-- Header title for device [CHAR LIMIT=50] -->
+    <string name="header_category_device">Device</string>
+    <!-- Header title for preferences [CHAR LIMIT=50] -->
+    <string name="header_category_preferences">Preferences</string>
+    <!-- Header title for accessories [CHAR LIMIT=50] -->
+    <string name="header_category_accessories">Remote &amp; accessories</string>
+    <!-- Header title for personal [CHAR LIMIT=50] -->
+    <string name="header_category_personal">Personal</string>
+    <!-- TV pregerences -->
+    <skip />
+    <!-- Title for main screen category for realtektv  on device [CHAR LIMIT=50] -->
+    <string name="realtektv_category_title">TV</string>
+    <!-- Preference which adds an channels setup [CHAR LIMIT=50] -->
+    <string name="channels_setup">Channels Setup</string>
+    <!-- Preference which adds an picture and display [CHAR LIMIT=50] -->
+    <string name="picture_and_display">Picture &amp; Display</string>
+    <!-- Preference which adds an Sound [CHAR LIMIT=50] -->
+    <string name="sound">Sound</string>
+    <!-- Preference which adds an external inputs [CHAR LIMIT=50] -->
+    <string name="external_inputs">External Inputs</string>
+    <!-- Account preferences -->
+    <skip />
+    <!-- Title for main screen category for accounts on device [CHAR LIMIT=50] -->
+    <string name="accounts_category_title">Accounts</string>
+    <!-- Preference which adds an account [CHAR LIMIT=50] -->
+    <string name="add_account">Add account</string>
+    <!-- Header for remove account [CHAR LIMIT=50] -->
+    <string name="account_header_remove_account">Remove account</string>
+    <!-- Sync item label: control sync settings [CHAR LIMIT=100] -->
+    <string name="account_sync">Choose synced apps</string>
+    <!-- Label for action to sync now [CHAR LIMIT=50] -->
+    <string name="sync_now">Sync now</string>
+    <!-- Sync status: in progress [CHAR LIMIT=50]-->
+    <string name="sync_in_progress">Syncing\u2026</string>
+    <!-- Sync status: last synced [CHAR LIMIT=50]-->
+    <string name="last_synced">Last synced
+    <xliff:g id="time">%1s</xliff:g>
+  </string>
+    <!-- Sync status: disabled [CHAR LIMIT=50] -->
+    <string name="sync_disabled">Disabled</string>
+    <!-- Remove account item label: remove the account [CHAR LIMIT=30] -->
+    <string name="account_remove">Remove account</string>
+    <!-- Message posted if removing the account fails. [CHAR LIMIT=NONE] -->
+    <string name="account_remove_failed">Can\'t remove account</string>
+    <!-- Formatter in AccountSyncSettings for each application we wish to synchronize, e.g. "Sync Calendar" -->
+    <string name="sync_item_title">
+    <xliff:g example="Calendar" id="authority">%s</xliff:g>
+  </string>
+  
+
+</resources>

@@ -1,0 +1,57 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+form {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+label, select, input {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+select, input {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+br {
+    margin-bottom: 1rem;
+}

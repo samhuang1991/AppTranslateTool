@@ -20,4 +20,4 @@ services:
           certName: my-cert
           privateKey: /path/to/private/key
           certificate: /path/to/certificate
-    app: index.app
+    app: app.py

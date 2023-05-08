@@ -50,7 +50,7 @@
     <!-- Sync status: last synced [CHAR LIMIT=50]-->
     <string name="last_synced">Last synced
     <xliff:g id="time">%1s</xliff:g>
-  </string>
+    </string>
     <!-- Sync status: disabled [CHAR LIMIT=50] -->
     <string name="sync_disabled">Disabled</string>
     <!-- Remove account item label: remove the account [CHAR LIMIT=30] -->
@@ -60,7 +60,7 @@
     <!-- Formatter in AccountSyncSettings for each application we wish to synchronize, e.g. "Sync Calendar" -->
     <string name="sync_item_title">
     <xliff:g example="Calendar" id="authority">%s</xliff:g>
-  </string>
+    </string>
   
 
 </resources>

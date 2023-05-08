@@ -1,20 +1,23 @@
 [
     {
-        "en_str": "English_UnitedStates",
+        "en_str": "English(United States)",
         "ch_str": "英语(美国)",
         "lang_str": "English(United States)",
+        "lang_code": "en",
         "lang_folder_name": "values-en-rUS"
     },
     {
-        "en_str": "Chinese_Simplified",
+        "en_str": "Chinese Simplified",
         "ch_str": "中文(简体)",
         "lang_str": "中文(简体)",
+        "lang_code": "ch",
         "lang_folder_name": "values-zh-rCN"
     },
     {
         "en_str": "Spanish",
         "ch_str": "西班牙语",
         "lang_str": "Espanol",
+        "lang_code": "es",
         "lang_folder_name": "values-es"
     }
 ]

@@ -1,56 +1,65 @@
 [
     {
-        "en_str": "English_UnitedStates",
+        "en_str": "English(United States)",
         "ch_str": "英语(美国)",
-        "lang_str": "English_UnitedStates",
+        "lang_str": "English(United States)",
+        "lang_code": "en",
         "lang_folder_name": "values-en-rUS"
     },
     {
-        "en_str": "Chinese _Simplified",
+        "en_str": "Chinese Simplified",
         "ch_str": "中文(简体)",
         "lang_str": "中文(简体)",
+        "lang_code": "ch",
         "lang_folder_name": "values-zh-rCN"
     },
     {
-        "en_str": "Chinese_Traditional",
+        "en_str": "Chinese Traditional",
         "ch_str": "中文(繁体)",
         "lang_str": "中文(繁体)",
+        "lang_code": "zh-TW",
         "lang_folder_name": "values-zh-rTW"
     },
     {
         "en_str": "Spanish",
         "ch_str": "西班牙语",
         "lang_str": "Espanol",
+        "lang_code": "es",
         "lang_folder_name": "values-es"
     },
     {
         "en_str": "Japanese",
         "ch_str": "日语",
         "lang_str": "日本語",
+        "lang_code": "ja",
         "lang_folder_name": "values-ja"
     },
     {
         "en_str": "Vietnamese",
         "ch_str": "越南语",
         "lang_str": "Tiéng  Viet",
+        "lang_code": "vi",
         "lang_folder_name": "values-vi"
     },
     {
         "en_str": "Hebrew",
         "ch_str": "希伯来语",
         "lang_str": "עִבְרִית",
+        "lang_code": "he",
         "lang_folder_name": "values-iw"
     },
     {
         "en_str": "Arabic",
         "ch_str": "阿拉伯语",
         "lang_str": "اللغة العربية",
+        "lang_code": "ar",
         "lang_folder_name": "values-ar"
     },
     {
         "en_str": "Persian",
         "ch_str": "波斯语",
         "lang_str": "فارسی",
+        "lang_code": "bs",
         "lang_folder_name": "فارسی"
     }
 ]

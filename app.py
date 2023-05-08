@@ -20,7 +20,7 @@ def translate():
     input_file = request.files['input_file']
     source_lang = request.form['source_lang']
     target_lang = request.form['target_lang']
-    print(source_lang)
+
     # Create temporary input and output files
     input_temp = tempfile.NamedTemporaryFile(delete=False)
     output_temp = tempfile.NamedTemporaryFile(delete=False)

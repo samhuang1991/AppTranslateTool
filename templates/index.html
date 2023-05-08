@@ -30,14 +30,14 @@
         <label for="source_lang">源语言:</label>
         <select name="source_lang" id="source_lang">
             {% for lang in source_languages %}
-                <option value="{{ lang.en_str }}">{{ lang.ch_str }} - {{ lang.lang_str }}</option>
+                <option value="{{ lang.lang_code }}">{{ lang.ch_str }} - {{ lang.lang_str }}</option>
             {% endfor %}
         </select>
         <br><br>
         <label for="target_lang">目标语言:</label>
         <select name="target_lang" id="target_lang">
             {% for lang in target_languages %}
-                <option value="{{ lang.en_str }}">{{ lang.ch_str }} - {{ lang.lang_str }}</option>
+                <option value="{{ lang.lang_code }}">{{ lang.ch_str }} - {{ lang.lang_str }}</option>
             {% endfor %}
         </select>
         <br><br>

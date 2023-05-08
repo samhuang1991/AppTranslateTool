@@ -1,3 +1,4 @@
+edition: 1.0.0
 name: my-translate-app
 version: 1.0.0
 access: default

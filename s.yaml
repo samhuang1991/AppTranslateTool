@@ -1,0 +1,8 @@
+name: my-translate-app
+version: 1.0.0
+access: default
+app: ./app.py
+events:
+  - http:
+      path: /
+      method: ANY

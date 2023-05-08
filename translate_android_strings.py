@@ -4,7 +4,8 @@ import requests
 from xml.etree import ElementTree as ET
 
 API_KEY = "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"
-URL = "https://api.openai.com/v1/completions"
+# URL = "https://api.openai.com/v1/completions"
+URL = "https://mychatgpt-chatgpt-qbsdizprhg.us-west-1.fcapp.run/v1/completions"
 
 
 def translate_text(text, source_lang, target_lang):

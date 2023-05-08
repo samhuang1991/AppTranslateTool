@@ -37,12 +37,14 @@
         <label for="target_lang">目标语言:</label>
         <select name="target_lang" id="target_lang">
             {% for lang in target_languages %}
-                <option value="{{ lang.lang_code }}">{{ lang.ch_str }} - {{ lang.lang_str }}</option>
+                <option value="{{ lang.lang_code }}">{{ lang.ch_str }} - 【{{ lang.lang_code }}】- {{ lang.lang_str }}</option>
             {% endfor %}
         </select>
         <br><br>
-        <label for="input_file">Choose strings.xml file:</label>
-        <input type="file" name="input_file" id="input_file" accept=".xml">
+        <fieldset>
+            <legend>选择xml文件:</legend>
+            <input type="file" name="input_file" id="input_file" accept=".xml">
+        </fieldset>
         <br><br>
         <button type="submit">开 始</button>
     </form>

@@ -22,31 +22,57 @@
             }
             return true;
         }
+
     </script>
 </head>
 <body>
-    <h1>多语言翻译工具</h1>
-    <form action="/translate" method="post" enctype="multipart/form-data" onsubmit="return validateForm();">
-        <label for="source_lang">源语言:</label>
-        <select name="source_lang" id="source_lang">
-            {% for lang in source_languages %}
-                <option value="{{ lang.lang_code }}">{{ lang.ch_str }} - {{ lang.lang_str }}</option>
-            {% endfor %}
-        </select>
-        <br><br>
-        <label for="target_lang">目标语言:</label>
-        <select name="target_lang" id="target_lang">
-            {% for lang in target_languages %}
-                <option value="{{ lang.lang_code }}">{{ lang.ch_str }} - 【{{ lang.lang_code }}】- {{ lang.lang_str }}</option>
-            {% endfor %}
-        </select>
-        <br><br>
-        <fieldset>
-            <legend>选择xml文件:</legend>
-            <input type="file" name="input_file" id="input_file" accept=".xml">
-        </fieldset>
-        <br><br>
-        <button type="submit">开 始</button>
-    </form>
+<h1>多语言翻译工具</h1>
+<form action="/translate" method="post" enctype="multipart/form-data" onsubmit="return validateForm();">
+    <label for="source_lang">源语言:</label>
+    <select name="source_lang" id="source_lang">
+        {% for lang in source_languages %}
+        <option value="{{ lang.lang_code }}">{{ lang.ch_str }} - {{ lang.lang_str }}</option>
+        {% endfor %}
+    </select>
+    <br><br>
+    <label for="target_lang">目标语言:</label>
+    <select name="target_lang" id="target_lang">
+        {% for lang in target_languages %}
+        <option value="{{ lang.lang_code }}">{{ lang.ch_str }} - 【{{ lang.lang_code }}】- {{ lang.lang_str }}</option>
+        {% endfor %}
+    </select>
+    <br><br>
+    <fieldset>
+        <legend>选择xml文件:</legend>
+        <input type="file" name="input_file" id="input_file" accept=".xml">
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>翻译引擎:</legend>
+        <label for="openai" class="radio-label">
+            <input type="radio" id="openai" name="engine" value="openai" class="radio-input">
+            <div class="radio-circle"></div>
+            <div class="radio-text">OpenAI</div>
+        </label>
+        <label for="google" class="radio-label">
+            <input type="radio" id="google" name="engine" value="google" class="radio-input">
+            <div class="radio-circle"></div>
+            <div class="radio-text">谷歌翻译</div>
+        </label>
+        <label for="microsoft" class="radio-label">
+            <input type="radio" id="microsoft" name="engine" value="microsoft" class="radio-input">
+            <div class="radio-circle"></div>
+            <div class="radio-text">微软翻译</div>
+        </label>
+        <label for="baidu" class="radio-label">
+            <input type="radio" id="baidu" name="engine" value="baidu" class="radio-input">
+            <div class="radio-circle"></div>
+            <div class="radio-text">百度翻译</div>
+        </label>
+    </fieldset>
+
+    <br><br>
+    <button type="submit">开 始</button>
+</form>
 </body>
 </html>
